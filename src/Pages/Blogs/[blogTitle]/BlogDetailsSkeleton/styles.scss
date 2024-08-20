@@ -1,0 +1,24 @@
+.blog-details-header {
+  .blog-description-skeleton {
+    display: grid;
+    gap: 16px;
+
+    > div:first-child {
+      li {
+        height: 23px;
+      }
+    }
+  }
+
+  .blog-info-skeleton {
+    .ant-skeleton-paragraph {
+      display: flex;
+      gap: 12px;
+
+      li {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

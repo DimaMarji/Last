@@ -1,0 +1,55 @@
+@import "../Helpers/mixins";
+
+.ant-list-pagination {
+  .ant-pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+  }
+  .ant-pagination-prev, .ant-pagination-item, .ant-pagination-next {
+    margin-right: 0;
+    min-width: 40px;
+    height: 40px;
+    border: none;
+    background: #F6F6F7;
+
+
+    button {
+      background: #F6F6F7;
+      border: none;
+    }
+  }
+
+  .ant-pagination-next {
+    border: none;
+    border-left: 1px solid #D6D9DF;
+
+  }
+
+  .ant-pagination-prev {
+    border: none;
+    border-right: 1px solid #D6D9DF;
+  }
+
+  .ant-pagination-item {
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+
+    &:not(.ant-pagination-item-active) {
+      display: none;
+    }
+  }
+
+
+  .ant-pagination-disabled {
+    color: #D6D9DF;
+  }
+}
+
+@include media-query(tablet-and-mobile) {
+  .ant-pagination {
+    margin-top: 40px;
+  }
+}

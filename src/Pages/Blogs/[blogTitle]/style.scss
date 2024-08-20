@@ -1,0 +1,90 @@
+@import "../../../Styles/Helpers/mixins";
+
+.blog-details-header {
+  text-align: left;
+  padding-top: 80px;
+  padding-bottom: 64px;
+  //border-bottom: 1px solid  #DEDFE1;
+
+  .blog-details-title {
+    margin-top: 0 !important;
+
+  }
+
+  .blog-details-image {
+    object-fit: cover;
+    height: 408px;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  .blog-details-text {
+    display: grid;
+    align-content: space-between;
+    gap: 12px;
+
+    .blog-brief-description {
+      margin-top: 16px;
+      display: block;
+      position: relative;
+      padding-left: 16px;
+
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 100%;
+        background-color: #1F83F4;
+        border-radius: 2px;
+      }
+    }
+
+    .blog-publish-info {
+      gap: 6px !important;
+    }
+
+  }
+}
+
+.blog-divider {
+  margin-top: 0;
+  margin-bottom: 64px;
+  border-top: 1px solid #DEDFE1;
+  @include fullWidthSection;
+}
+
+@include media-query(tablet-and-mobile) {
+  .blog-details-header {
+    padding-top: 16px;
+    padding-bottom: 20px;
+
+    .back-to-blogs {
+      padding-bottom: 20px;
+    }
+
+    .blog-details-text .blog-brief-description {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    .blog-details-image {
+      width: 100%;
+      height: auto;
+      min-height: 180px;
+      object-fit: cover;
+      margin-top: 21px;
+    }
+
+  }
+  .blog-divider {
+    display: none;
+  }
+  .blog-body-details {
+    .job-overview-card {
+      margin-top: 24px;
+    }
+  }
+}

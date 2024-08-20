@@ -1,0 +1,117 @@
+// Colorized Colors
+$primary-colorized-color: #FFCF64;  // Yellow
+$secondary-colorized-color: #509DD0;  // Light Blue
+$tertiary-colorized-color: #252D63;  // Dark Blue
+
+// Application Colors
+$primary-app-color: #FFFFFF;  // White
+$secondary-app-color: #C7E0FC;  // Light Blue
+$tertiary-app-color: #F6F6F7;  // Light Grey
+$quaternary-app-color: #42526D;  // Dark Grey
+
+// Additional Colors
+$white-color: #FFFFFF;  // White
+$app-primary-text-color: $quaternary-app-color;  // Dark Grey
+$app-primary-icon-color: #98A1B0;  // Grey
+
+// Layout Colors
+$app-layout-primary-color: $tertiary-colorized-color;  // Light Blue
+$app-layout-secondary-color: $primary-app-color;  // White
+$app-layout-tertiary-color: $tertiary-app-color;  // Light Grey
+
+// Navbar Colors
+$app-navbar-background-color: $tertiary-colorized-color;  // White
+$app-navbar-border-bottom-color: rgba(31, 131, 244, 0.15);  // Transparent Blue
+$app-navbar-text-color: #232736;  // Dark Blue
+$app-navbar-search-border-color: #E2EFFE;  // Light Blue
+$app-navbar-search-text-color: #98A1B0;  // Grey
+$app-navbar-icons-color: $primary-colorized-color;  // Yellow
+$app-navbar-items-color: $primary-colorized-color;  // Yellow
+$app-navbar-active-item-color: $primary-colorized-color;  // Yellow
+$app-navbar-items-hover-color: $primary-colorized-color;  // Yellow
+
+// Sidebar Colors
+$app-sidebar-background-color: $primary-app-color;  // White
+$app-sidebar-border-right-color: rgba(53, 172, 254, 0.1);  // Transparent Blue
+$app-sidebar-icons-color: $quaternary-app-color;  // Dark Grey
+$app-sidebar-icons-color-filter: invert(77%) sepia(18%) saturate(615%) hue-rotate(348deg) brightness(90%) contrast(86%);
+$app-sidebar-text-color: $quaternary-app-color;  // Dark Grey
+$app-sidebar-text-hover-color: $quaternary-app-color;  // Dark Grey
+$app-sidebar-background-hover-color: $tertiary-app-color;  // Light Grey
+$app-sidebar-selected-item-text-color: $primary-colorized-color;  // Yellow
+$app-sidebar-selected-item-background-color: $tertiary-app-color;  // Light Grey
+$app-sidebar-selected-item-background-image: unset;
+$app-sidebar-selected-item-icon-color-filter: invert(77%) sepia(18%) saturate(615%) hue-rotate(348deg) brightness(87%) contrast(86%);
+$app-sidebar-selected-item-border-left-color: $primary-colorized-color;  // Yellow
+
+// Footer Colors
+$app-footer-primary-background-color: $tertiary-colorized-color;  // Light Grey
+$app-footer-primary-color: $secondary-app-color;  // Light Blue
+$app-footer-secondary-color: $quaternary-app-color;  // Dark Grey
+
+// Table Colors
+$app-table-background-color: $primary-app-color;  // White
+$app-table-background-hover-color: $tertiary-app-color;  // Light Grey
+$app-table-columns-row-background-color: $primary-app-color;  // White
+$app-table-column-title-color: #5D6B82;  // Grey
+$app-table-column-icon-color: $quaternary-app-color;  // Dark Grey
+$app-table-active-sorter-icon-color: #5D6B82;  // Grey
+$app-table-header-text-color: #5D6B82;  // Grey
+$app-table-content-text-color: #5D6B82;  // Grey
+$app-table-empty-text-color: #5D6B82;  // Grey
+$app-table-border-color: $primary-app-color;  // White
+$app-table-box-shadow-color: 3px 2px 16px -13px #1F83F4;  // Box Shadow Blue
+$app-table-footer-background-color: $primary-app-color;  // White
+$app-table-footer-text-color: $quaternary-app-color;  // Dark Grey
+$app-table-filter-button-color: $primary-colorized-color;  // Yellow
+
+// Select Dropdown Colors
+$app-select-dropdown-background-color: $white-color;  // White
+$app-select-dropdown-selected-color: #F6FAFF;  // Light Blue
+$app-select-border-color: $secondary-app-color;  // Light Blue
+$app-select-border-hover-color: $secondary-app-color;  // Light Blue
+$app-select-background-not-selected-hover-color: #F6FAFF;  // Light Blue
+$app-select-background-selected-color: #F6FAFF;  // Light Blue
+$app-select-text-selected-color: $quaternary-app-color;  // Dark Grey
+$app-select-text-not-selected-color: $quaternary-app-color;  // Dark Grey
+$app-select-arrow-color: $app-primary-icon-color;  // Grey
+
+// Pagination Colors
+$app-pagination-primary-color: #E5F4FF;  // Very Light Blue
+$app-pagination-secondary-color: #7A8699;  // Medium Grey
+
+// Dropdown Colors
+$app-dropdown-background-color: $primary-app-color;  // White
+$app-dropdown-icons-color: $quaternary-app-color;  // Dark Grey
+$app-dropdown-icons-color-filter: unset;
+$app-dropdown-icons-hover-color: $secondary-colorized-color;  // Light Blue
+$app-dropdown-icons-hover-color-filter: invert(16%) sepia(76%) saturate(7482%) hue-rotate(199deg) brightness(104%) contrast(106%);
+$app-dropdown-text-color: #5D6B82;  // Grey
+$app-dropdown-text-hover-color: $secondary-colorized-color;  // Light Blue
+
+// Status Colors
+$app-success-primary-color: #98F659;  // Light Green
+$app-error-primary-color: #9F2039;  // Dark Red
+
+// Scroll Colors
+$app-scroll-primary-color: $primary-colorized-color;  // Yellow
+$app-scroll-secondary-color: $primary-app-color;  // White
+
+// Loading Colors
+$app-loading-primary-color: #b0764e;  // Brown
+$app-loading-secondary-color: #EFD1B1;  // Light Beige
+$app-loading-tertiary-color: #a13216;  // Dark Brown
+
+// Custom Skeleton Colors
+$app-custom-skeleton-primary-color: linear-gradient(90deg, #F4F7FA 25%, #EBF1F7 37%, #F4F7FA 63%);
+
+$app-pop-confirm-primary-color: beige;
+
+// Button Colors
+$app-button-primary-color: $primary-colorized-color;  // Yellow
+$app-button-secondary-color: $secondary-colorized-color;
+$app-button-tertiary-color: $tertiary-colorized-color;
+$app-button-text-color: $white-color;
+$app-button-disabled-background-color: rgba(229, 231, 235, 1);
+$app-button-disabled-text-color: rgba(156, 163, 175, 1);
+$app-button-box-shadow-color: 2px 4px rgba(31, 131, 244, 0.1);

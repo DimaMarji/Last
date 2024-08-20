@@ -1,0 +1,40 @@
+@import "../../../Styles/Helpers/mixins";
+
+.title-custom-margin.ant-typography.title-semi-bold-24 {
+  margin-bottom: 16px !important;
+  text-align: left !important;
+  @include media-query(mobile) {
+    font-size: 20px !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+.blog-not-found {
+  padding-top: 80px;
+}
+
+.underline-zcoderz {
+  //border-bottom: 2px solid currentColor;
+  //margin:auto;
+  //padding: 2px !important;
+  border-bottom: 1.8px solid currentColor;
+  padding-bottom: 4px;
+
+}
+
+.blog-not-found-message.ant-typography {
+  margin-top: 40px !important;
+}
+
+.check-your-spelling {
+  margin-bottom: 16px;
+  margin-left: 89px;
+}
+
+@include media-query(mobile) {
+  .check-your-spelling {
+    margin-bottom: 0;
+    margin-left: 16px;
+  }
+
+}

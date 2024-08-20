@@ -1,0 +1,21 @@
+@import "../../../Styles/Helpers/mixins";
+
+
+.blog-list {
+  margin-top: 64px;
+
+  .ant-list-item {
+    margin-bottom: 32px !important;
+  }
+}
+
+@include media-query(tablet-and-mobile) {
+  .blog-list {
+    margin-top: 24px;
+
+    .ant-list-item {
+      margin-bottom: 20px !important;
+    }
+  }
+}
+

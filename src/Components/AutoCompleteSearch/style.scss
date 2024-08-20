@@ -1,0 +1,106 @@
+.custom-style-hover-search-input.ant-input-search .ant-input:focus, .custom-style-hover-search-input.ant-input-search .ant-input:hover {
+  border-color: #35ACFE;
+}
+
+.search-on-blogs.ant-select-dropdown {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .ant-select-item-option {
+    .ant-select-item-option-content {
+      &:has(.search-on-blogs) {
+        cursor: default;
+
+        .ant-typography {
+          color: #70737C !important;
+        }
+      }
+    }
+  }
+}
+
+.certain-category-search-dropdown.ant-select-dropdown {
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+  border-radius: 0 0 20px 20px;
+  width: 203px;
+  border-top: 1px solid #F2F8FE;
+  box-shadow: 0 8px 10px 0 rgba(31, 131, 244, 0.10);
+}
+
+.custom-style-hover-search-input {
+  border: 1px solid rgb(235, 241, 247)
+}
+
+.custom-style-hover-search-input.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  box-sizing: border-box;
+
+
+  background: #FFFFFF;
+  border: 1px solid #EBF1F7;
+}
+
+
+.custom-style-hover-search-input.ant-input-affix-wrapper > input.ant-input {
+
+  color: #70737C;
+  font-size: 14px;
+  line-height: 160%;;
+}
+
+.prefix-search-icon {
+  margin-right: 12px;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item-group-title {
+  color: #666;
+  font-weight: bold;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item-group {
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item {
+  padding-left: 16px;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item.show-all {
+  text-align: center;
+  cursor: default;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu {
+  max-height: 300px;
+}
+
+.search-not-found-style {
+  background-color: white;
+  overflow: hidden;
+}
+
+.search-not-found {
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+
+.search-found-style {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px !important;
+  margin-left: 18px !important;
+}
+
+.search-found-style-div {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.spinner-custom.ant-spin-lg .ant-spin-dot {
+  font-size: 61px;
+}
+
+.color-white-overflow.ant-select-item-option-content {
+  background-color: white;
+}

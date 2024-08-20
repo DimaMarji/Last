@@ -1,0 +1,11 @@
+// The /vendor folder contains all the third party files that the application needs.
+// It can be a reset css file, bootstrap, anything you could think of.
+// import tailwindcss
+@use "tailwindcss/base" as *;
+@use "tailwindcss/components" as *;
+@use "tailwindcss/utilities";
+
+//import antd css
+// @import 'antd/dist/antd.min.css';
+
+// import other

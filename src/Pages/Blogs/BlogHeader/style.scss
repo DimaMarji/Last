@@ -1,0 +1,203 @@
+@import "../../../Styles/Helpers/mixins";
+
+.blog-header {
+  .blog-tabs-bar {
+    .ant-tabs-nav-wrap {
+      .ant-tabs-nav-list {
+        margin: auto;
+        gap: 40px;
+      }
+    }
+
+    .ant-tabs-ink-bar {
+      display: none !important;
+    }
+
+    .ant-tabs-tab {
+      margin: 0 !important;
+      padding: 0 !important;
+      height: fit-content;
+    }
+
+    .ant-tabs-nav {
+      margin-bottom: 0 !important;
+
+      .ant-tabs-nav-list {
+        //gap: 60px;
+        //width: 100%;
+      }
+    }
+
+    .blog-search-icon {
+      &:hover {
+        filter: invert(42%) sepia(61%) saturate(1168%) hue-rotate(182deg) brightness(95%) contrast(99%);
+      }
+    }
+  }
+
+  .ant-tabs-nav-more {
+    display: none;
+  }
+
+  .ant-tabs-nav-wrap {
+    //overflow: auto !important;
+
+  }
+
+  .custom-auto-complete-search {
+    width: 100%;
+  }
+
+  .custom-style-hover-search-input {
+    border-radius: 8px;
+    border: 1px solid #D6D9DF;
+    padding: 12px 16px;
+
+    &:focus {
+      border: 1px solid #DEDFE1;
+      box-shadow: 0 1px 0 0 #9AC7FA inset, 1px 0 0 0 #9AC7FA inset, 0px -1px 0px 0px #9AC7FA inset, -1px 0 0 0 #9AC7FA inset, 0 0 0 2px rgba(31, 131, 244, 0.30);
+
+    }
+  }
+
+  .blog-category-skeleton {
+    width: 100px;
+
+    .ant-skeleton-title {
+      margin-bottom: 0;
+      height: 22px;
+      border-radius: 5px;
+    }
+  }
+
+  .search-close-icon {
+    &:hover {
+      filter: invert(42%) sepia(61%) saturate(1168%) hue-rotate(182deg) brightness(95%) contrast(99%);
+    }
+  }
+}
+
+.blog-tabs-bar {
+  .ant-tabs-tab-btn {
+    padding: 8px 16px;
+
+    &:hover {
+      .ant-typography {
+        color: #1F83F4 !important;
+      }
+    }
+  }
+
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    border-radius: 5px;
+    background: #E9F3FE;
+
+    > .ant-typography {
+      color: #1F83F4 !important;
+    }
+  }
+
+  .ant-tabs-ink-bar-animated {
+    //min-width: 68px;
+    margin-bottom: 7px;
+    //display: none;
+  }
+
+  //.ant-tabs-tab .ant-tabs-tab-active{
+  //  margin-bottom: -100px;
+  //}
+}
+
+.blog-description {
+  margin-top: 12px !important;
+  margin-bottom: 64px !important;
+}
+
+
+.blog-tabs-bar {
+  .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+    background-color: #35ACFE;
+  }
+}
+
+.blog-tabs-bar > .ant-tabs-content-holder {
+  display: none;
+}
+
+.blog-tabs-bar.ant-tabs-top > .ant-tabs-nav .ant-tabs-nav-wrap:before, .ant-tabs-top > div > .ant-tabs-nav .ant-tabs-nav-wrap:before {
+  box-shadow: inset 10px 0 6px -8px rgb(235 241 247 / 60%) !important
+}
+
+.blog-tabs-bar.ant-tabs-top > .ant-tabs-nav .ant-tabs-nav-wrap:after, .ant-tabs-top > div > .ant-tabs-nav .ant-tabs-nav-wrap:after {
+  box-shadow: inset -10px 0 6px -8px rgb(235 241 247 / 60%) !important
+}
+
+.blog-tabs-bar.ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before {
+  display: none;
+}
+
+.search-result-item {
+  display: flex;
+  justify-content: space-between;
+  //margin-bottom: 9px;
+  //margin-top: 9px;
+  color: #232532;
+  white-space: initial;
+}
+
+.certain-category-search-dropdown .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #FFFFFF;
+
+  &:hover {
+    cursor: pointer !important;
+
+    .ant-typography {
+      color: #1F83F4 !important;
+    }
+  }
+}
+
+.certain-category-search-dropdown .ant-select-item.ant-select-item-option {
+  padding: 0 !important;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown.ant-select-dropdown-hidden {
+  padding: 0 !important;
+}
+
+.ant-select-item.ant-select-item-option .certain-category-search-dropdown {
+  padding-left: 0;
+
+}
+
+.certain-category-search-dropdown.search-on-blogs .ant-select-item.ant-select-item-option {
+  background: #FFFFFF !important;
+  cursor: auto;
+}
+
+.blog-header-title {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+@include media-query(tablet-and-mobile) {
+  .blog-header-title {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .blog-header {
+    .ant-input-affix-wrapper {
+      border-radius: 8px;
+    }
+
+    .blog-tabs-bar {
+      margin-top: 24px;
+
+      .ant-tabs-tab-btn {
+        padding: 4px 12px;
+      }
+    }
+  }
+}
+
+
